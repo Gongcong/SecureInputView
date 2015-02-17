@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SecureInputViewStyle">
+        <item name="android:longClickable">false</item>
+        <item name="android:inputType">textUri</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLength">6</item>
+    </style>
+
+    <declare-styleable name="SecureInputView">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderColorFocus" format="color" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordWidth" format="dimension" />
+        <attr name="passwordColor" format="color" />
+        <attr name="passwordRadius" format="dimension" />
+        <attr name="displayPassWord" format="boolean" />
+    </declare-styleable>
+</resources>

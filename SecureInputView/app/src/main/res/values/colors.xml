@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_ev_border_color_normal">#DBDBDB</color>
+    <color name="default_ev_border_color_focus">#B7B7B7</color>
+    <color name="default_divider_line_color_focus">#CCCCCC</color>
+    <color name="default_divider_line_color_normal">#E5E5E5</color>
+    <color name="default_ev_password_color">#333333</color>
+</resources>

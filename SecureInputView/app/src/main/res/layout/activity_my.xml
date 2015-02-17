@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity">
+
+    <com.whiplash.secureinputview.SecureInputView
+        style="@style/SecureInputViewStyle"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        app:borderColor="@android:color/darker_gray"
+        app:borderWidth="1dp"
+        app:borderColorFocus="@android:color/holo_blue_light" />
+
+    <com.whiplash.secureinputview.SecureInputView
+        style="@style/SecureInputViewStyle"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:borderColor="@android:color/darker_gray"
+        app:borderColorFocus="@android:color/holo_blue_light"
+        app:displayPassWord="true" />
+
+</LinearLayout>

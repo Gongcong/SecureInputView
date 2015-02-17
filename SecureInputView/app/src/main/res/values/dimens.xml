@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 密码输入框 -->
+    <dimen name="default_ev_border_width">1dp</dimen>
+    <dimen name="default_ev_border_radius">3dp</dimen>
+    <dimen name="default_ev_password_width">10dp</dimen>
+    <dimen name="default_ev_password_radius">3dp</dimen>
+    <dimen name="custom_ev_border_width">10dp</dimen>
+    <dimen name="custom_ev_border_radius">10dp</dimen>
+    <dimen name="custom_ev_password_width">10dp</dimen>
+    <integer name="default_ev_password_length">6</integer>
+</resources>
